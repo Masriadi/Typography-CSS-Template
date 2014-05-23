@@ -1,0 +1,92 @@
+/*************************************************************
+*  MAIN TIPOGRAFI
+*************************************************************/
+/*Menagatur body*/
+* html {
+    font-size: 100%;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+
+body {
+    /* Mengatur font anti aliased*/
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Mengatur default font size*/
+    font-size: 16px; /*1em = 16px*/
+    /* Mengatur default line-height (leading)*/
+    line-height: 24px;
+    font-family:  Arial, sans-serif;
+}
+
+
+
+/* Mengatur link*/
+a {
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+a:visited   {   text-decoration: underline; }
+a:hover     {   text-decoration: none; }
+
+/* Mengatur nilai standar ke dalam tag html yg berhubungan dengan tipografi */
+p, ul, ol, dl, blockquote, pre, td, th, label, textarea {
+	font-size: 1em; /* equiv 16px */
+	line-height: 1.5em;
+	margin: 0 0 1.5em;
+}
+
+/* avoid last-child bottom margin */
+p:last-child, ul:last-child, ol:last-child, dl:last-child, blockquote:last-child, pre:last-child, table:last-child  {
+    margin-bottom: 0;
+}
+
+/* Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-family: Georgia,Palatino,serif;
+}
+
+h1{ 
+   font-size: 2.3750em; /* 38px */ line-height: 1.2632em; /* 48px */
+}
+h2{ 
+  font-size: 2.1250em; /* 34px */ line-height: 1.4118em; /* 48px */
+ }
+h3{ 
+  font-size: 1.8750em; /* 30px */ line-height: 1.6000em; /* 48px */
+}
+h4{ 
+   font-size: 1.6250em; /* 26px */ line-height: 1.8462em; /* 48px */
+}
+h5{ 
+  font-size: 1.3750em; /* 22px */ line-height: 1.0909em; /* 24px */
+}
+h6{ 
+  font-size: 1.1250em; /* 18px */ line-height: 1.3333em; /* 24px */
+}
+
+
+/* Blockquote*/
+blockquote{
+    color:#666666;
+    padding-left: 1.5em;
+    border-left: 0.5em #EEE solid;
+    font-style: italic;
+}
+
+/* Pre */
+pre, code, kbd, samp { color: #000; font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 0.98em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+/* List */
+ul, ol { margin-bottom: 1.5em 0; padding: 0 0 0 2em; }

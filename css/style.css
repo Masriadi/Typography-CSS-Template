@@ -1,0 +1,42 @@
+/*************************************************************
+*  MAIN LAYOUT
+*************************************************************/
+.container {
+	max-width: 940px;
+	margin: auto;
+}
+
+.konten {
+  padding: 24px;
+  background: #f7f7f7;
+}
+
+.header {
+  height: 48px;
+  width: 100%;
+  background: #ddd;
+}
+
+.welcome {
+  padding: 12px 0;
+}
+
+.text-logo {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.content-left {
+	float: left;
+}
+
+.quote, .content {
+  background: #f7f7f7;
+  padding: 24px 20px;
+  margin-bottom:24px;
+  float: left;
+}
+
+
